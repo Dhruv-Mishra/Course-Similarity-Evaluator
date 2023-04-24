@@ -18,8 +18,8 @@ A tool which helps both students and teachers to identify the overlapping course
 
 ## How To Use
 ### Prerequisites
-#####For running this code, you need Python 3 (preferably >= 3.7.9 ) installed on your system.
-#####You must have the the following dependencies installed:
+##### For running this code, you need Python 3 (preferably >= 3.7.9 ) installed on your system.
+##### You must have the the following dependencies installed:
 &nbsp;&nbsp;&nbsp;&nbsp; - `Pandas`<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - `Numpy`<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - `Tensorflow`<br>
@@ -29,14 +29,14 @@ A tool which helps both students and teachers to identify the overlapping course
 &nbsp;&nbsp;&nbsp;&nbsp; - `Pickle`<br>
 &nbsp;&nbsp;&nbsp;&nbsp; - `Openpyxl`<br>
 
-Ensure that you have atleast <span style="color:red">**50 MB **</span> of free space on your system.
+Ensure that you have atleast <span style="color:red">**50 MB**</span> of free space on your system.
 
 ### Using the System
-To start, you need to initialize a <span style="color:blue"> ** Course_Loader ** </span> object. This is where all the data will be stored, processed and similarity will be calculated. It can be initialized in the following way:
+To start, you need to initialize a <span style="color:blue"> **Course_Loader** </span> object. This is where all the data will be stored, processed and similarity will be calculated. It can be initialized in the following way:
 
     c = Course_Loader()
 
-Once the object is loaded, you now have to add all the xlsx files containing the information about the courses. To add a new course, you simply have to call the <span style="color:orange">** addCourse ** </span> function of your <span style="color:blue">** Course_Loader ** </span> object. For this you need to retrive the directory of the .xlsx files containing your data. 
+Once the object is loaded, you now have to add all the xlsx files containing the information about the courses. To add a new course, you simply have to call the <span style="color:orange">**addCourse** </span> function of your <span style="color:blue">**Course_Loader** </span> object. For this you need to retrive the directory of the .xlsx files containing your data. 
 In our case, the files are located in the Data folder in the same directory as our python file. 
     
 	path = os.getcwd()
@@ -47,7 +47,7 @@ In our case, the files are located in the Data folder in the same directory as o
     	c.addCourse(f)    #Adding each course using the addCourse function
 
 Now that all the courses have been added, you can use the system. Note that you may add a new course at any given time and the system will update itself to include this in the results.
-Now, to make a query, you have to call the <span style="color:orange"> ** combine_recommendations ** </span> function of your <span style="color:blue"> ** Course_Loader ** </span> object. The input to this function will be a list of strings, here each string denotes the course that you wish to input (see the examples for more clarity).
+Now, to make a query, you have to call the <span style="color:orange"> **combine_recommendations** </span> function of your <span style="color:blue"> **Course_Loader** </span> object. The input to this function will be a list of strings, here each string denotes the course that you wish to input (see the examples for more clarity).
 
 It would look something like this:
 
