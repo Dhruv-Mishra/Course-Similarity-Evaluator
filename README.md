@@ -20,14 +20,14 @@ A tool which helps both students and teachers to identify the overlapping course
 ### Prerequisites
 #####For running this code, you need Python 3 (preferably >= 3.7.9 ) installed on your system.
 #####You must have the the following dependencies installed:
-&nbsp;&nbsp;&nbsp;&nbsp; - `Pandas`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Numpy`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Tensorflow`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Tensorflow Hub`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Sklearn`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Difflib`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Pickle`
-&nbsp;&nbsp;&nbsp;&nbsp; - `Openpyxl`
+&nbsp;&nbsp;&nbsp;&nbsp; - `Pandas`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Numpy`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Tensorflow`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Tensorflow Hub`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Sklearn`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Difflib`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Pickle`<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - `Openpyxl`<br>
 
 Ensure that you have atleast <span style="color:red">**50 MB **</span> of free space on your system.
 
@@ -57,17 +57,17 @@ It would look something like this:
 Upon running this, you would get the desired output in the form of a pandas dataframe. The output would contain the top 10 courses similar to your entered courses, in the ranked order with first being the most similar.
 ## Example Queries
 ### Single Input Query
-**Input Query:**
+**Input Query:**<br>
 ![image](https://user-images.githubusercontent.com/88545875/234037833-6a198565-85fd-4c9b-b219-92682d1aa160.png)
 
-**Output Generated:**
+**Output Generated:**<br>
 ![image](https://user-images.githubusercontent.com/88545875/234036656-e42b9efa-4334-4dc3-9f35-2e0fdcc11f1e.png)
 
 ### Multi Input Query
-**Input Query:**
+**Input Query:**<br>
 ![image](https://user-images.githubusercontent.com/88545875/234040855-262b5270-2ac5-4098-ae25-68799a700a8a.png)
 
-**Output Generated:**
+**Output Generated:**<br>
 ![image](https://user-images.githubusercontent.com/88545875/234041051-552809a2-9bcf-49de-be21-33bb1b2a8183.png)
 
 ## Issues
