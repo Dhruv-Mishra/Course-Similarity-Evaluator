@@ -1,0 +1,10 @@
+Problems:
+	- Odd column, row format(Some rows are columns, some columns are rows)
+	- Different Formats for Different Subjects(Introduction to spatial computing, CSE- 555)
+	- Missing Description(CSE-503, Computational Metagenomics)
+	- Missing Course Name(Advanced Sociology Theory)
+	- Same Course Code(ECE-570; Control Theory and Linear Systems Theory)
+	- Empty Files with just course names (BIO361)
+	- Multi-Cell Formatting(CSE-523 Randomized Algorithm)
+	- Multi-Line Course Description(ECE-321, SSH-222)
+	- Empty Columns(ENT-411)
