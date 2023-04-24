@@ -1,6 +1,6 @@
 # Course-Similarity-Evaluator
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid offering redundant courses.
-
+![image](https://user-images.githubusercontent.com/88545875/234068830-346e8c88-6d83-41cf-be69-228069c67a24.png)
 ## About
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid offering redundant courses. It allows its users to search within their insituition's course directory simply by entering the name. To make things even simpler, the user does not even have to write the full name. Even short forms like intro(for introduction), b/w (for between) etc. are accepted.
 To add to this, there is also an option of finding courses similar to a set of courses if the user wishes for the same. 
