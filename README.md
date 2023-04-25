@@ -24,11 +24,11 @@ To avoid unnecessary computation, and to make the system faster, we have impleme
 ## Interface
 *This is a low fidelity prototype of the interface, the high fidelity prototype and an actual working interface are in the works<br>
 #### Homepage
-![image](https://user-images.githubusercontent.com/88452809/234382099-503bd13f-cf36-474c-a22d-c6051f1c4e23.png)<br><br><br>
+![image](https://user-images.githubusercontent.com/88452809/234382099-503bd13f-cf36-474c-a22d-c6051f1c4e23.png)<br>
 #### Evaluator Query Page 
-![image](https://user-images.githubusercontent.com/88452809/234382292-c74c4dad-9670-48bd-8aa4-be86365d4290.png)<br><br><br>
+![image](https://user-images.githubusercontent.com/88452809/234382292-c74c4dad-9670-48bd-8aa4-be86365d4290.png)<br>
 #### Evaluator Results Page 
-![image](https://user-images.githubusercontent.com/88452809/234382359-d0e49561-e653-42c3-87d0-60a92feaf95c.png)<br><br><br>
+![image](https://user-images.githubusercontent.com/88452809/234382359-d0e49561-e653-42c3-87d0-60a92feaf95c.png)<br>
 ## How To Use
 ### Prerequisites
 ##### For running this code, you need Python 3 (preferably >= 3.7.9 ) installed on your system.
