@@ -1,6 +1,6 @@
 # Course-Similarity-Evaluator
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid course redundacy within an instituition.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://user-images.githubusercontent.com/88452809/234382877-f9b42e39-d151-4f75-a059-f1798c2e56ff.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://user-images.githubusercontent.com/88452809/234382877-f9b42e39-d151-4f75-a059-f1798c2e56ff.png)
 ## About
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid offering redundant courses. It allows its users to search within their insituition's course directory simply by entering the name. To make things even simpler, the user does not even have to write the full name. Even short forms like intro(for introduction), b/w (for between) etc. are accepted.
 To add to this, there is also an option of finding courses similar to a set of courses if the user wishes for the same. 
