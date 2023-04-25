@@ -1,6 +1,6 @@
 # Course-Similarity-Evaluator
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid course redundacy within an instituition.<br>
-![image](https://user-images.githubusercontent.com/88545875/234068830-346e8c88-6d83-41cf-be69-228069c67a24.png)
+![image](https://user-images.githubusercontent.com/88452809/234382512-fe8ff088-127f-4001-9598-8b170abf2d33.png)
 ## About
 A tool which helps both students and teachers to identify the overlapping courses within the course directory to avoid offering redundant courses. It allows its users to search within their insituition's course directory simply by entering the name. To make things even simpler, the user does not even have to write the full name. Even short forms like intro(for introduction), b/w (for between) etc. are accepted.
 To add to this, there is also an option of finding courses similar to a set of courses if the user wishes for the same. 
@@ -21,6 +21,11 @@ We have implemented a preprocessor which takes in the input as a file pointer ob
 #### Automatic Similarity Updation Upon New Additions
 To avoid unnecessary computation, and to make the system faster, we have implemented event specific updation. This means that the system will work with each new added course, but it will not compute the similarity metrics until a function using these metrics is called upon. 
 
+## Interface
+*This is a low fidelity prototype of the interface, the high fidelity prototype and an actual working interface are in the works
+![image](https://user-images.githubusercontent.com/88452809/234382099-503bd13f-cf36-474c-a22d-c6051f1c4e23.png)
+![image](https://user-images.githubusercontent.com/88452809/234382292-c74c4dad-9670-48bd-8aa4-be86365d4290.png)
+![image](https://user-images.githubusercontent.com/88452809/234382359-d0e49561-e653-42c3-87d0-60a92feaf95c.png)
 ## How To Use
 ### Prerequisites
 ##### For running this code, you need Python 3 (preferably >= 3.7.9 ) installed on your system.
