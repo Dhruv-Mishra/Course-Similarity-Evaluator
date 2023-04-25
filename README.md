@@ -6,19 +6,19 @@ A tool which helps both students and teachers to identify the overlapping course
 To add to this, there is also an option of finding courses similar to a set of courses if the user wishes for the same. 
 
 ## Features
-##### Course Similarity Matching 
+#### Course Similarity Matching 
 The core component of the system is to allow the user to find the courses similar to their selected course in the course directory. For this, the user may search by name of the course.  The system will then suggest the courses which are likely to be similar to the course that the user input.
 
-##### Multi Course Similarity
+#### Multi Course Similarity
 Extending this core functionality to multiple courses, we decided to implement the similarity matching on a set of courses as well. For this, we take the take the similarity metric of all the courses in the dataset with respect to each of the input courses. Then, for each course in the dataset, we take the sum of the similarity metric obtained with respect to each input. The courses which have the highest resulting sum are the ones we suggest.
 
-##### Dataset Specific Spell Correction
+#### Dataset Specific Spell Correction
 We have added the functionality of correcting wrong spellings for the user. This spell correct, however, is not generic and is specific to our dataset. This ensures that our input is not corrected to a generic english sentence, which cannot be found in our dataset.
 
-##### Inbuilt Data Scrapper Support (.xlsx and .csv)
+#### Inbuilt Data Scrapper Support (.xlsx and .csv)
 We have implemented a preprocessor which takes in the input as a file pointer object and extracts the data from the specified file. For this, we used python's Openpyxl to read excel files cell by cell, and identify the cells that contain possibly useful information. We then preprocess this information and neatly pack it into a Course object, which can further be used for various purposes.
 
-##### Automatic Similarity Updation Upon New Additions
+#### Automatic Similarity Updation Upon New Additions
 To avoid unnecessary computation, and to make the system faster, we have implemented event specific updation. This means that the system will work with each new added course, but it will not compute the similarity metrics until a function using these metrics is called upon. 
 
 ## How To Use
