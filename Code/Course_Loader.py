@@ -35,6 +35,9 @@ class Course_Loader:
         self.codes_list = []
         self.newEntries = False
 
+    def getDataset(self):
+        return self.df
+    
     def addCourse(self, f):
         newCourse = Course(f)
         self.course_names[newCourse.name] = newCourse
@@ -99,6 +102,3 @@ class Course_Loader:
         df_indices = [i[0] for i in final_score][1:10]
         result = self.df.iloc[df_indices]
         return result
-                     
-   
-
